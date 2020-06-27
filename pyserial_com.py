@@ -6,7 +6,7 @@ import time
 ser = serial.Serial('COM3', 9600)
 
 def blink_led():
-    #According to what the users write, the program will send a letter through the arduino's serial communication
+    # According to what the users write, the program will send a letter through the arduino's serial communication
     user_input = input("\n Type on, off or quit : ")
 
     if user_input =="on":
@@ -22,7 +22,7 @@ def blink_led():
         blink_led()
 
     elif user_input =="quit":
-        #Besides exiting, the program turns off the LED and ends the serial communication
+        # Besides exiting, the program turns off the LED and ends the serial communication
         print("Exiting")
         time.sleep(0.1)
         ser.write(b'L')
@@ -34,5 +34,5 @@ def blink_led():
 
 time.sleep(2) # wait for the serial connection to initialize
 
-#calling the function
+# calling the function
 blink_led()
