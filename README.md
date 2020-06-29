@@ -7,7 +7,9 @@ I really hope that this post could help you in your projects.
 Disclaimer: This is my first post on Github. I'm still learning how to use this thing. If you have some comment or some tip to immprove the conttend, please let me know :+1:.
 
 ## First Steps 
-First off all, you need to upload the .ino file into your Arduino.
+1. First off all, you need to assemble the circuit like the image below (make sure that you did the right connections);
+2. Now, upload the .ino file into your Arduino;
+3. After this, open your Python IDE and run the .py file.
 
 ## Circuit 
 ###### Required components: 
